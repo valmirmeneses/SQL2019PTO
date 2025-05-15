@@ -1,0 +1,39 @@
+
+[Perfmon]
+Version=1.0
+
+[Objects]
+Object_0=Memory
+Object_1=PhysicalDisk
+Object_2=Processor
+Object_3=SQLServer:General Statistics
+Object_4=SQLServer:Memory Manager
+Object_5=SQLServer:SQL Statistics
+Object_6=System
+
+[Memory]
+Counter_0=Available MBytes
+
+[PhysicalDisk]
+Counter_0=Avg. Disk sec/Read
+Counter_1=Avg. Disk sec/Write
+Counter_2=Disk Reads/sec
+Counter_3=Disk Writes/sec
+
+[Processor]
+Counter_0=% Processor Time
+
+[SQLServer:General Statistics]
+Counter_0=User Connections
+Counter_1=Processes blocked
+
+[SQLServer:Memory Manager]
+Counter_0=Memory Grants Pending
+
+[SQLServer:SQL Statistics]
+Counter_0=Batch Requests/sec
+Counter_1=Compilations/sec
+Counter_2=Recompilations/sec
+
+[System]
+Counter_0=Processor Queue Length
